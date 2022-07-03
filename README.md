@@ -1,7 +1,4 @@
 
-  html_preview: true
----
-
 ### Comandos de utilidad. 
 
 Antes poder dar inicio de lleno en el curso, debemos conocer algunos comandos que R maneja y que nos serán de utilidad cuando estemos trabajando, ya sea con gran cantidad de datos o cuando se generen errores, el cómo poder ver la documentación para resolver problemas, buscar ayuda dentro de Rstudio, etc. 
