@@ -1,7 +1,4 @@
-
-#===============REQUISITOS====================
-
-#paqueterías necesarias
+#Paqueterías----
 library(ggplot2)
 library(nycflights13)
 
