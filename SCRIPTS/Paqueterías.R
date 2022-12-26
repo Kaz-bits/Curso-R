@@ -1,22 +1,20 @@
-#Lista de paqueterías instaladas----
+# Lista de paqueterÃ­as instaladas
 
-installed.packages() #Toda la información de instalación
-colnames(installed.packages()) #Dependencias, paqueterías, etc
-row.names(installed.packages()) #Todas las paqueterías
+installed.packages() #Toda la informaciÃ³n de instalaciÃ³n
+colnames(installed.packages()) # Dependencias, paqueterÃ­as, etc
+row.names(installed.packages()) # Todas las paqueterÃ­as
 
-#Verificar instalaciín de paquetería----
+# Verificar instalaciÃ­n de paqueterÃ­a
 
 paq <- row.names(installed.packages())
-paq[grep("cesar", paq)] #Obtiene el nombre de la paquetería
+paq[grep("ggplot2", paq)] # Obtiene el nombre de la paqueterÃ­a
 
-#Verificar e instalar----
+# Verificar e instalar
 
 if ((is.na(paq[grep("readxl", paq)][1]) == TRUE)) {
   install.packages("readxl")
   } else {
-    "Paquetería instalada"
+    "PaqueterÃ­a instalada"
 }
 
-
-#FIN----
 
